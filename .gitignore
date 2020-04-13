@@ -1,3 +1,13 @@
 # Project exclude paths
 /cloud-consumer-order80/target/
 /cloud-provider-payment8001/target/
+.idea/.gitignore
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/jarRepositories.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/mycloud.iml
+cloud-consumer-order80/src/test/
