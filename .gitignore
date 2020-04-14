@@ -1,6 +1,5 @@
 # Project exclude paths
-/cloud-consumer-order80/target/
-/cloud-provider-payment8001/target/
+.idea/*.xml
 .idea/.gitignore
 .idea/compiler.xml
 .idea/encodings.xml
@@ -10,5 +9,4 @@
 .idea/misc.xml
 .idea/modules.xml
 .idea/mycloud.iml
-cloud-consumer-order80/src/test/
 .idea/vcs.xml
