@@ -31,4 +31,5 @@ public class MyLB implements LoadBalancer{
         int index = getAndIncrement() % serviceInstances.size();
         return serviceInstances.get(index);
     }
+
 }
