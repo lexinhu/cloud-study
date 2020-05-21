@@ -1,10 +1,12 @@
 package com.xn2001.springcloud.controller;
+
 import com.xn2001.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+
 import javax.annotation.Resource;
 
 /**
@@ -27,9 +29,11 @@ public class PaymentHystrixController {
     }
 
     @GetMapping(value = "/payment/hystrix/timeout/{id}")
-    public String paymentInfoTimeOut(@PathVariable("id") Integer id){
+    public String paymentInfo_TimeOut(@PathVariable("id") Integer id){
         String result = paymentService.paymentInfoTimeOut(id);
         log.info("*****result："+result);
         return result;
     }
+
+
 }
