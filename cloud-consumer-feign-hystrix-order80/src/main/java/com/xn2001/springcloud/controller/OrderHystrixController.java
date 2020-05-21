@@ -14,7 +14,7 @@ import javax.annotation.Resource;
  */
 @RestController
 @Slf4j
-//优先级比实现类要搞
+//优先级比实现类要高
 @DefaultProperties(defaultFallback = "paymentGlobalFallbackMethod")
 public class OrderHystrixController {
 
