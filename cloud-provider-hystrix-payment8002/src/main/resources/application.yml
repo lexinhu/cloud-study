@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -16,6 +16,6 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
 
   instance:
-    instance-id: paymentHystrix8001
+    instance-id: paymentHystrix8002
 
 
