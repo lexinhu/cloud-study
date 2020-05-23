@@ -3,6 +3,7 @@ package com.xn2001.springcloud.service;
 import cn.hutool.core.util.IdUtil;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 
@@ -12,6 +13,7 @@ import java.util.concurrent.TimeUnit;
  * Created by 乐心湖 on 2020/5/21 0:01
  */
 @Service
+@EnableHystrix
 public class PaymentService {
 
     public String paymentInfoOK(Integer id){

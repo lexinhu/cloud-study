@@ -42,5 +42,5 @@ public class PaymentHystrixController {
         log.info("******result: "+circuitBreaker);
         return circuitBreaker;
     }
-
+    
 }
