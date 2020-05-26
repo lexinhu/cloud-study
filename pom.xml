@@ -22,19 +22,21 @@
         <module>cloud-consumer-feign-hystrix-order80</module>
         <module>cloud-consumer-hystrix-dashboard9001</module>
         <module>cloud-provider-hystrix-payment8002</module>
+        <module>cloud-gateway-gateway9527</module>
     </modules>
 
     <!--统一管理jar包版本-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
         <junit.version>4.12</junit.version>
         <lombok.version>1.18.10</lombok.version>
         <log4j.version>2.13.3</log4j.version>
         <mysql.version>8.0.18</mysql.version>
         <druid.version>1.1.16</druid.version>
         <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.compilerVersion>14</maven.compiler.compilerVersion>
     </properties>
 
     <!--子模块继承之后，提供作用：锁定版本+子module不用写groupId和version-->
