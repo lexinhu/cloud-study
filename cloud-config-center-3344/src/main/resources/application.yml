@@ -14,6 +14,17 @@ spring:
             - springcloud-config
       #读取分支
       label: master
+  rabbitmq:
+    port: 5672 #默认就是5672
+    username: guest
+    password: guest
+    host: 192.168.111.130
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
 
 eureka:
   client:
