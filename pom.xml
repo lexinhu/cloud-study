@@ -34,7 +34,7 @@
     <!--统一管理jar包版本-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <lombok.version>1.18.10</lombok.version>
         <log4j.version>2.13.3</log4j.version>
         <mysql.version>8.0.18</mysql.version>
